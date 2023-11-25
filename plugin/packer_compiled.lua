@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
@@ -98,11 +103,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["nordic.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nordic.nvim",
-    url = "https://github.com/AlexvZyl/nordic.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -148,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  tokyonight = {
+    loaded = true,
+    path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   undotree = {
     loaded = true,

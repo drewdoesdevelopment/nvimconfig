@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use({ 'AlexvZyl/nordic.nvim', as = 'nordic' })
+  use({ 'folke/tokyonight.nvim', as = 'tokyonight' })
   
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
@@ -43,4 +43,6 @@ use {
     'nvim-tree/nvim-web-devicons', -- optional
   },
 }
+
+use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 end)
