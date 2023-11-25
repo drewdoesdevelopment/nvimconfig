@@ -46,3 +46,11 @@ end)
 vim.keymap.set("n", "<S-Tab>", function()
     vim.cmd("bprevious")
 end)
+
+vim.keymap.set("n", "<leader>vs", function()
+    vim.cmd("vs")
+end)
+
+vim.keymap.set("n", "<leader>hs", function()
+    vim.cmd("split")
+end)
