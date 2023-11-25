@@ -1,5 +1,5 @@
 function SetMyColors(color)
-    color = color or 'nordic'
+    color = color or 'tokyonight-night'
 	vim.cmd.colorscheme(color)
 end
 
