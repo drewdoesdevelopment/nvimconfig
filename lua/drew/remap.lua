@@ -36,5 +36,13 @@ vim.keymap.set("n", "<leader>x", function()
 end)
 
 vim.keymap.set("n", "<C-s>", function()
-    vim.cmd(":w")
+    vim.cmd("w")
+end)
+
+vim.keymap.set("n", "<Tab>", function()
+    vim.cmd("bnext")
+end)
+
+vim.keymap.set("n", "<S-Tab>", function()
+    vim.cmd("bprevious")
 end)
