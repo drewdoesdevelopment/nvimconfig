@@ -32,7 +32,7 @@ vim.keymap.set("n", "<leader>t", function()
 end)
 
 vim.keymap.set("n", "<leader>x", function()
-    vim.cmd(":q")
+    vim.cmd("bdelete")
 end)
 
 vim.keymap.set("n", "<C-s>", function()
