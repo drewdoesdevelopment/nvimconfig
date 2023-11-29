@@ -4,3 +4,10 @@ started as a base from @ThePrimeagen's config, check out his video content, he's
 
 **Preview**
 ![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/6d73c719-013f-4e1e-abfb-bd0945944a5f)
+
+Install:
+
+1. clone/pull the content of this repo into your nvim folder
+2. install packer, as it's used to manage the plugins for this config (very easy install): https://github.com/wbthomason/packer.nvim
+3. after packer is installed, navigate to the packer.lua file and run :so and :PackerSync
+4. restart neovim and enjoy!
