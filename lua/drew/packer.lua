@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
   }
 
   use({ 'folke/tokyonight.nvim', as = 'tokyonight' })
+  use('bluz71/vim-moonfly-colors')
   
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
@@ -24,7 +25,6 @@ return require('packer').startup(function(use)
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',
   requires = {
-    --- Uncomment these if you want to manage LSP servers from neovim
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
 
