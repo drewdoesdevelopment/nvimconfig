@@ -9,11 +9,12 @@ started as a base from @ThePrimeagen's config, check out his video content, he's
 3. after packer is installed, navigate to the packer.lua file and run :so and :PackerSync
 4. restart neovim and enjoy!
 
+You can configure the themes below in colors.lua:
 
 **Preview w/ tokyonight theme**
 --
 ![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/6d73c719-013f-4e1e-abfb-bd0945944a5f)
 
-**Preview w/ moonfly theme**
+**Preview w/ moonfly theme** (Default)
 --
 ![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/ad09b9d0-3240-4487-97d3-1561546624ce)
