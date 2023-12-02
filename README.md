@@ -10,6 +10,10 @@ started as a base from @ThePrimeagen's config, check out his video content, he's
 4. restart neovim and enjoy!
 
 
-**Preview**
+**Preview w/ tokyonight theme**
 --
 ![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/6d73c719-013f-4e1e-abfb-bd0945944a5f)
+
+**Preview w/ moonfly theme**
+--
+![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/ad09b9d0-3240-4487-97d3-1561546624ce)
