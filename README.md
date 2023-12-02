@@ -9,7 +9,7 @@ started as a base from @ThePrimeagen's config, check out his video content, he's
 3. after packer is installed, navigate to the packer.lua file and run :so and :PackerSync
 4. restart neovim and enjoy!
 
-You can configure the themes below in colors.lua:
+You can set the pre-installed themes below in ```colors.lua```, or simply install your own into ```packer.lua``` and change the string value in ```colors.lua```
 
 **Preview w/ tokyonight theme**
 --
