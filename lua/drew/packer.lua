@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
 
   use({ 'folke/tokyonight.nvim', as = 'tokyonight' })
   use('bluz71/vim-moonfly-colors')
-  
+  use({ 'rose-pine/neovim', as = 'rose-pine' })
+
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
