@@ -159,11 +159,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  tokyonight = {
-    loaded = true,
-    path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
   undotree = {
     loaded = true,
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
@@ -173,11 +168,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-moonfly-colors"] = {
-    loaded = true,
-    path = "C:\\Users\\andre\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-moonfly-colors",
-    url = "https://github.com/bluz71/vim-moonfly-colors"
   }
 }
 
