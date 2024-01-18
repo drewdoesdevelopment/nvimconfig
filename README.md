@@ -11,10 +11,6 @@ started as a base from @ThePrimeagen's config, check out his video content, he's
 
 You can set the pre-installed themes below in ```colors.lua```, or simply install your own into ```packer.lua``` and change the string value in ```colors.lua```
 
-**Preview w/ tokyonight theme**
---
-![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/6d73c719-013f-4e1e-abfb-bd0945944a5f)
-
 **Preview w/ moonfly theme** (Default)
 --
 ![image](https://github.com/drewdoesdevelopment/nvimconfig/assets/28990207/ad09b9d0-3240-4487-97d3-1561546624ce)
