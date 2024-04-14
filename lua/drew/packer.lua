@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
   }
 
   use({'bluz71/vim-moonfly-colors', as = 'moonfly'})
-  use { "catppuccin/nvim", as = "catppuccin" }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
