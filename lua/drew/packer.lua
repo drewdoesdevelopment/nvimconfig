@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
   }
 
   use({'bluz71/vim-moonfly-colors', as = 'moonfly'})
+  
+  use('rebelot/kanagawa.nvim')
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
