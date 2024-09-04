@@ -12,10 +12,8 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-
-  use({'bluz71/vim-moonfly-colors', as = 'moonfly'})
   
-  use('rebelot/kanagawa.nvim')
+  use({'oxfist/night-owl.nvim'})
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')

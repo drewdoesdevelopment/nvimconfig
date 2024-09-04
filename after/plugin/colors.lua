@@ -1,18 +1,6 @@
 function SetColors(color)
-    require('kanagawa').setup({
-        colors = {
-            theme = {
-                all = {
-                    ui = {
-                        bg_gutter = "none"
-                    }
-                }
-            }
-        },
-    })
-    color = color or 'kanagawa-dragon'
+    color = color or 'night-owl'
     vim.cmd.colorscheme(color)
-
 end
 
 SetColors()
