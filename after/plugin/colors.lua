@@ -1,5 +1,5 @@
 function SetColors(color)
-    color = color or 'vscode'
+    color = color or 'github_dark_default'
     vim.cmd.colorscheme(color)
 end
 
