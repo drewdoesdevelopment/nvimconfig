@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["github-nvim-theme"] = {
+    loaded = true,
+    path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\github-nvim-theme",
+    url = "https://github.com/projekt0n/github-nvim-theme"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-lspinstall"] = {
+    loaded = true,
+    path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspinstall",
+    url = "https://github.com/kabouzeid/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -173,11 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vscode.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\DrewPfeiler\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode.nvim",
-    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
